@@ -1,0 +1,25 @@
+<renderingStyle name="Hiking" depends="Touring-view_(more-contrast-and-details)" defaultColor="#f1eae4" version="1">
+
+	<renderingProperty attr="hideCliffs" name="Cliffs" description="Hide cliffs"
+		type="boolean" possibleValues="" category="hide"/>
+
+	<order>
+		<switch>
+			<case tag="natural" value="cliff">
+			    <apply_if hideCliffs="true" order="-1"/>
+			</case>
+		</switch>
+	</order>
+
+	<text>
+	</text>
+
+	<point>
+	</point>
+
+	<polygon>
+	</polygon>
+
+	<line>
+	</line>
+</renderingStyle>
